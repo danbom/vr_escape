@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{ED236613-416D-41DF-4820-719B0031E1FA}</ProjectGuid>
+    <ProjectGuid>{4D4E86F4-EADD-A8ED-FD6C-5F94EB14056C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -88,20 +88,24 @@
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardAndroidDevice.cs" />
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
+    <Compile Include="Assets\Script\CamCtrl.cs" />
+    <Compile Include="Assets\Script\DoorQuiz.cs" />
     <Compile Include="Assets\Script\InputSave.cs" />
+    <Compile Include="Assets\Script\MoveCtrl.cs" />
     <Compile Include="Assets\Script\PaintCtrl.cs" />
     <Compile Include="Assets\Script\PlayerControl.cs" />
     <Compile Include="Assets\Script\PuzOut.cs" />
+    <Compile Include="Assets\Script\Quiz01.cs" />
     <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
     <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
     <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
     <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
     <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/user/Documents/quiz1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/vr_escape/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/user/Documents/quiz1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/vr_escape/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

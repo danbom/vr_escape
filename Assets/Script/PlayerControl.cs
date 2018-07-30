@@ -21,11 +21,13 @@ public class PlayerControl : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         ScreenCenter = new Vector3(Camera.main.pixelWidth / 2, Camera.main.pixelHeight / 2);
+        //메인카메라 화면의 높이/2=x좌표,넓이/2 y좌표=카메라중앙좌표
         MagnetButton = GetComponent<Cardboard>();
+        //MagnetButton변수에 현재 오브젝트가 가지고 있는 카드보드스크립트를 불러와 저장한다.
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
         Ray ray = Camera.main.ScreenPointToRay(ScreenCenter);
         RaycastHit hit;
         CursorGageImage.fillAmount = GageTimer;

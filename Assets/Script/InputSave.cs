@@ -5,7 +5,7 @@ using UnityEngine;
 public class InputSave : MonoBehaviour
 {
 
-    public PlayerControl playerctrl;
+    private PlayerControl playerctrl;
     int num;
     float[] x_pos = new float[] { -0.3f, 0f, 0.3f };
     public bool[] save_color = new bool[] { false, false, false };

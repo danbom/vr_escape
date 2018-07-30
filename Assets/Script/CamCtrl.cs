@@ -9,6 +9,7 @@ public class CamCtrl : MonoBehaviour {
 
     void Start(){
         playerctrl = GameObject.Find("CardboardMain").GetComponent<PlayerControl>();
+        player = GameObject.Find("CardboardMain");
     }
 	
 	// Update is called once per frame
@@ -18,8 +19,12 @@ public class CamCtrl : MonoBehaviour {
         {
             if (playerctrl.hit_ob.CompareTag("Box"))
             { //ray에 hit한 collider의 Tag가 Box일 경우에
-                 playerctrl.hit_ob.transform.gameObject.SetActive(false);
-                 player.transform.localScale = new Vector3(0.5f,0.5f,0.5f);
+
+                playerctrl.hit_ob.transform.gameObject.SetActive(false);
+                player.GetComponent<CapsuleCollider>().center = new Vector3(0, 0, 0);
+                player.GetComponent<CapsuleCollider>().height = 1;
+
+                player.transform.localScale = new Vector3(0.5f,0.5f,0.5f);
             }
         }
     }

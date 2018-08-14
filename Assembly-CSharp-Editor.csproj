@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{B11ADD10-6021-2EC4-1EA1-BA9FAE165FFD}</ProjectGuid>
+    <ProjectGuid>{6B82A2F1-1D35-446C-96B3-14135763E75E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -68,17 +68,17 @@
     <Compile Include="Assets\Cardboard\Editor\CardboardMenu.cs" />
     <Compile Include="Assets\Cardboard\Editor\CardboardSetup.cs" />
     <Compile Include="Assets\Cardboard\Editor\StereoControllerEditor.cs" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/user/Downloads/vr_escape-master (4)/vr_escape-master (2)/vr_escape-master/vr_escape-master/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/user/Downloads/vr_escape-master (4)/vr_escape-master (2)/vr_escape-master/vr_escape-master/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>C:/Users/user/Documents/vr_escape/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/user/Downloads/vr_escape-master (4)/vr_escape-master (2)/vr_escape-master/vr_escape-master/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/vr_escape/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/user/Downloads/vr_escape-master (4)/vr_escape-master (2)/vr_escape-master/vr_escape-master/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/user/Documents/vr_escape/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/user/Documents/vr_escape/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -368,7 +368,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{92935C5D-9A18-07AC-2A97-DE4915A55647}</Project>
+      <Project>{4D4E86F4-EADD-A8ED-FD6C-5F94EB14056C}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
